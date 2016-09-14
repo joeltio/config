@@ -1,2 +1,0 @@
-# This file points to what to include relative to the home directory.
-.vim
