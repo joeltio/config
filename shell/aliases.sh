@@ -1,7 +1,9 @@
 # Git aliases
 alias g='git'
+alias ga='git add'
 alias gs='git status'
 alias gc='git commit'
+alias gb='git branch'
 alias gl='git log'
 alias gla='git log --all --decorate --oneline --graph'
 alias gd='git diff'
@@ -23,10 +25,6 @@ alias lla='ls -la'
 alias s='sudo'
 alias c='clear'
 
-# Specific shortcuts
-alias start-grafana-server='systemctl start grafana-server'
-alias start-influx='service influxdb start'
-
 # Terraform
 alias tf='terraform'
 
@@ -39,4 +37,7 @@ alias dcbr='sudo docker-compose build --no-cache'
 alias ys='yarn start'
 alias yx='yarn run'
 alias yt='yarn test'
+
+# pnpm
+alias pd='pnpm dev'
 
